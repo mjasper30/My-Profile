@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<head><title>League of Legends Profile</title></head>
+<style>
+body
+{
+	background-image: url(zed.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*Border of League of Legends*/
+.lol_rank_border{
+background-image: url(leagueborder.png);
+background-repeat: no-repeat;
+background-size: 100%;
+height:220px; 
+width:220px;
+position: absolute;
+top:10%;
+left:1.1%;
+}
+
+/*Master Banner of League of Legends*/
+.lolbanner{
+background-image: url(rankbanner.png);
+background-repeat: no-repeat;
+background-size: 100%;
+height:550px; 
+width:200px;
+position: absolute;
+top:-10%;
+left:2%;
+}
+
+/*Profile Picture with different pictures show if you will mouse over*/
+.profilepic{
+background-image: url(mjasper.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+border-radius: 250px;
+height:500px; 
+width:150px;
+position: absolute;
+top:18%;
+left:4.5%;
+}
+
+/*Mouse Over Profile Pic*/
+.profilepic:hover{
+	animation: 5s profilepic infinite;
+}
+
+/*Different Profile Picture*/
+@-webkit-keyframes profilepic{
+0%{top:18%;left:4.5%;background-image:url("mjasper.jpg");}
+25%{top:18%;left:4.5%;background-image:url("mjasper1.jpg");}
+50%{top:18%;left:4.5%;background-image:url("mjasper2.jpg");}
+75%{top:18%;left:4.5%;background-image:url("mjasper3.jpg");}
+100%{top:18%;left:4.5%;background-image:url("mjasper4.jpg");}
+}
+
+/*My Name*/
+.name{
+	font-family:Lucida Handwriting;
+	font-size:16px;
+	color: white; 
+	position:absolute;
+	top:60%;
+	left:4.5%;
+}
+
+/*My Section*/
+.section{
+	font-family:Lucida Handwriting;
+	font-size:16px;
+	color: white; 
+	position:absolute;
+	top:66%;
+	left:8%;
+}
+
+/*I put black circle with opacity to become readable information about myself*/
+.aboutborder{ 
+	background-color: black;
+	opacity: 0.5;
+  	height: 280px;
+  	width: 300px;
+ 	padding: 20px;
+ 	margin: 0px;
+ 	border-radius: 100%;
+  	position: absolute;
+  	top:20%;
+  	left:28%;
+}	
+
+/*About me GIF*/
+.aboutme{
+	background-image: url(aboutme.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:110px; 
+	width:110px;
+	position: absolute;
+	top:26%;
+	left:39%;
+}
+
+/*This is the shield of masterboder of league of legends or the purple shield show*/
+.aboutmefront{
+	background-image: url(masterborder.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:500px; 
+	width:400px;
+	position: absolute;
+	top:0%;
+	left:25%;
+	transition-duration: 1s;
+	opacity: 1;
+	}
+
+/*I put hover on shield so that about me information is not already show either they mouse over on the master border*/
+.aboutmefront:hover{
+	transition-duration: 1s;
+	opacity: 0;
+}
+
+.textformat{
+	font-family: Monotype Corsiva;
+	font-size:13.2px;
+	color: white; 
+	line-height: 2;
+	text-shadow: 2px 2px 5px red;
+	text-align: center;
+}
+
+.ira{
+	background-image: url(ira.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:10%;
+	left:70%;
+	transform: scale(1);
+	transform: rotate(5deg);
+	opacity: 0.3;
+	transition-duration: 0.5s;
+}
+
+
+.ira:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.perpek{
+	background-image: url(perpek.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:18%;
+	left:70%;
+	transform: scale(1);
+	transform: rotate(-14deg);
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.perpek:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.perpek{
+	background-image: url(perpek.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:32%;
+	left:75%;
+	transform: scale(1);
+	transform: rotate(-10deg);
+	opacity: 0.2;
+	transition-duration: 0.5s;
+}
+
+.perpek:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.perpek1{
+	background-image: url(perpek1.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:47%;
+	left:65%;
+	transform: scale(1);
+	transform: rotate(10deg);
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.perpek1:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.demunyu{
+	background-image: url(demunyu.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:55%;
+	left:70%;
+	transform: scale(1);
+	transform: rotate(35deg);
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.demunyu:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.demunyu{
+	background-image: url(demunyu.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:60%;
+	left:75%;
+	transform: scale(1);
+	transform: rotate(-6deg);
+	opacity: 0.3;
+	transition-duration: 0.5s;
+}
+
+.demunyu:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+.ict{
+	background-image: url(2ict.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: 200px;
+	position: absolute;
+	top:76%;
+	left:68%;
+	transform: scale(1);
+	transform: rotate(3deg);
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.ict:hover{
+transform: scale(1.5);
+opacity: 1;
+transition-duration: 0.5s;
+}
+
+</style>
+<body>
+<div class="aboutborder">
+	<div class="textformat"><br><br><br>
+		Hi my name is Jasper David Macaraeg<br>
+		I lived at 130 J. Ramos St. Caloocan City<br>
+		My hobbies are playing computer games, playing guitar<br>
+		My talents are dancing, and solving rubiks cube in matter of seconds<br>
+		My favorite colors are black, white, and blue<br>
+	</div>
+</div>
+<div class="aboutme"></div>
+<div class="lolbanner"></div>
+<div class="lol_rank_border"></div>
+<div class="profilepic"></div>
+<div class="name">Jasper Macaraeg</div>
+<div class="section">BSCS-1A</div>
+<div class="aboutmefront"></div>
+<div class="perpek"></div>
+<div class="ira"></div>
+<div class="ict"></div>
+<div class="perpek1"></div>
+<div class="demunyu"></div>
+</body>
+</html>
